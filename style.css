@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Comfortaa', sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #4e6a91;
+}
+
+.title{
+    font-size:1.3rem;
+    color: #7992a3;
+    text-align:center;
+} 
+.container {
+  width: 800px;
+  max-width: 80%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 5px 1px;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.btn {
+  border: 1px solid #999;
+  background-color: #1f90ff;
+  border-radius: 5px;
+  padding: 15px;
+  color: #fff;
+  outline: none;
+  margin: 3px;
+}
+
+.btn:hover {
+  border-color: black;
+}
+
+.start-btn, .next-btn {
+  font-size: 1.5rem;
+  padding: 10px 40px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+.correct {
+   background-color: #4ecf86;
+}
+
+.wrong{
+   background-color: #f5455c;
+}
+
+.word {
+   background-color: #dde4eb;
+   font-weight:bold;
+   padding:5px;
+   border-radius: 2px;
+   color: #4e6a91;
+}
+
+.error{
+   color:#f5455c;
+   text-align:center;
+} 
